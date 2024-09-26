@@ -1,0 +1,1052 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+h1,h2,h3,h4,h5{
+    font-family: "Montserrat", sans-serif;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+h4{
+    font-size: 18px;
+    color: #ff441b;
+    line-height: 35px;
+}
+h2{
+font-size: 40px;
+font-weight: 700;
+line-height: 65px;
+color: #37000a;
+text-transform: capitalize;
+}
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+a{
+    text-decoration: none;
+}
+.btns a{
+    padding: 15px 30px;
+    background: #ff441b;
+    border: 2px solid #ff441b;
+    color: #fff;
+    border-radius: 5px;
+    transition: 0.7s;
+    
+
+}
+.btns a:hover{
+    padding: 15px 30px;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    transition: 0.7s;
+}
+
+
+
+
+
+
+/* header seection */
+
+
+
+
+.header {
+    background: url(../img/heder-back.jpg) center center no-repeat;
+    background-size: cover;
+}
+.header .topbar-parrents {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.header .topbar-parrents .left ,.phone ,.mail ,.location {
+    display: flex;
+}
+.header .topbar-parrents .left .icon {
+    margin-right: 5px;
+    color: #ff441b;
+}
+.header .topbar-parrents .left  .details {
+    margin-right: 15px;
+}
+.header .topbar-parrents .right .icon{
+    display: flex;
+}
+.header .topbar-parrents .right .icon i {
+    margin-right: 20px;
+    transition: 0.7s;
+    font-size: 20px;
+    cursor: pointer;
+}
+.header .topbar-parrents .right .icon i:hover{
+    color: #ff441b;
+    transition: 0.7s;
+}
+.header .navbar-parrents .navbar ul {
+    margin: 0  auto;
+}
+.header .navbar-parrents .navbar {
+
+}
+.header .navbar-parrents .navbar .nav-item .nav-link {
+    color: #fff;
+}
+.header .navbar-parrents .navbar img{
+    height: 80px;
+    position: absolute;
+    margin-bottom: 35px;
+}
+.header .navbar-parrents .navbar {
+    padding-top: 30px;
+}
+.header .navbar-parrents .navbar .nav-item .a{
+    position: relative;
+}
+.header .navbar-parrents .navbar .nav-item .a::after{
+    position: absolute;
+    content: "";
+    background: #fff;
+    height: 3px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+.header .navbar-parrents button.btn.btns {
+    padding: 10px 15px;
+    background: transparent;
+    transition: 0.7s;
+    border: 2px solid #fff;
+    font-weight: 600;
+}
+.header .navbar-parrents button.btn.btns:hover{
+    background: #fff;
+    color: #ff441b;
+    transition: 0.7s;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+/* hedader Section End */
+/* banner section start */
+.banner{
+    background: url(../img/banner-update.png) center center no-repeat;
+    background-size: cover;
+    height: 83vh;
+}
+/* banner section start */
+.banner .banner-parrents{
+    color: #fff;
+}
+.banner .banner-parrents h1{
+    
+    font-size: 70px;
+}
+.banner .banner-parrents .btns{
+    padding-top: 30px;
+}
+/* banner section End */
+/* feature Section start */
+.feature {
+    padding: 100px 0;
+    overflow: hidden;
+}
+.feature .feature-parrents .feature-pic img{
+    width: 600px;
+}
+
+.feature  .feature-item .feature-box {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 75px;
+    column-gap: 30px;
+}
+.feature .feature-title {
+    text-align: center;
+    padding-bottom: 100px;
+}
+.feature  .feature-item .feature-box .card .card-pic {
+    width: 85px !important;
+    margin: 0 auto;
+    position: relative;
+    bottom: 40px;
+}
+.feature  .feature-item .feature-box .card .card-title {
+    margin-top: -40px;
+}
+.feature  .feature-item .feature-box .card .card-body a{
+    padding: 12px 30px;
+    background: #ff441b;
+    border: 2px solid #ff441b;
+    color: #fff;
+    border-radius: 5px;
+    transition: 0.7s;
+    
+
+}
+.feature  .feature-item .feature-box .card{
+    transition: 0.7s;
+}
+.feature  .feature-item .feature-box .card:hover,a{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    transition: 0.7s;
+}
+.feature  .feature-item .feature-box .card .card-body a:hover{
+    padding: 12px 30px;
+    background: transparent;
+    border: 2px solid #ff441b;
+    color: #ff441b;
+    transition: 0.7s;
+    border: 2px solid #ff441b;
+    
+}
+.feature  .feature-item .feature-box .card  .card-body {
+    position: relative;
+    bottom: 17px;
+}
+/* feature section End */
+/* About section start */
+.about{
+    background: #000;
+    padding: 100px 0;
+}
+.about .about-content {
+    color: #fff;
+    padding: 0 100px 0 0;
+}
+.about .about-content h2{
+    color: #fff;
+    padding: 10px 0;
+}
+.about .about-content p{
+    padding-bottom: 5px;
+}
+.about .about-content .inner-content {
+    display: flex;
+}
+.about .about-content .inner-content .icon {
+    margin-right: 30px;
+    color: #ff441b;
+    font-size: 25px;
+}
+.about .about-content .about-btn{
+    margin-top: 30px;
+}
+/* About section End */
+
+/* services Section start */
+.services{
+    padding: 100px 0;
+    overflow: hidden;
+}
+.services .services-title{
+    text-align: center;
+    padding: 0 250px 50px;
+}
+.services .services-item .services-img img{
+    width: 80%;
+    border-radius: 15px;
+    transition: 0.7s;
+    cursor: pointer;
+    
+}
+.services .services-item .services-img img:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+    transition: 0.7s;
+}
+
+.services .services-content {
+    padding: 10px 15px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 20px;
+    width: 70%;
+    margin-left: 20px;
+    background: #fff;
+    position: relative;
+    bottom: 39px;
+    text-align: center;
+}
+.services .services-content i {
+    padding: 10px 10px;
+    background: red;
+    border-radius: 10px;
+    color: #fff;
+}
+
+/* services section end */
+
+/* testimonial Section start  */
+
+.tetimonial{
+    padding: 50px 0 100px;
+    background: url(../img/testi.jpg) center center no-repeat;
+    background-size: cover;
+    height: 100%;
+   
+}
+.tetimonial .tetimonial-title{
+    padding-bottom: 20px;
+}
+.tetimonial .testi-box {
+    background: #fff;
+    border-radius: 10px;
+    padding:  0 30px 30px 20px;
+   
+}
+.tetimonial .testi-box .quota i{
+    font-size: 40px;
+    color: #ff441b;
+    padding-bottom: 30px;
+}
+.tetimonial .testi-box .testi-conmtent .details .profile h5{
+    padding-top:15px;
+}
+.swiper {
+    width: 100%;
+   
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    filter: blur(2px);
+  }
+  .swiper-slide.swiper-slide-visible.swiper-slide-fully-visible.swiper-slide-active {
+    filter: blur(0px);
+  }
+  .swiper-3d .swiper-slide-shadow-left {
+    background-image: none;
+}
+.swiper-3d .swiper-slide-shadow-right {
+    background-image: none;
+}
+
+/* testimonials section End */
+/* logo-caresole Section */
+.logo-caresole {
+    padding: 100px 0;
+   
+}
+.owl-nav {
+    display: none;
+}
+/* logo caresole end */
+
+/*  call to action section start*/
+.call-to-action{
+    padding: 100px 0 ;
+    background: url(../img/cta-back-2.jpg) center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vh;
+
+}
+.call-to-action .cta-title  h2{
+    color: #fff;
+} 
+.call-to-action .cta-title p {
+    padding: 0 150px;
+    color: #fff;
+}
+.call-to-action .cta-btn{
+    padding-top: 30px;
+    animation: btns 6s ease-in-out infinite;
+
+}
+@keyframes btns {
+    0%{
+        transform: translate(0px);
+    }
+    50%{
+        transform: translate(30px);
+        
+    }
+    100%{
+        transform: translate(0px);
+    }
+}
+.call-to-action .cta-btn a{
+    background: #ff441b;
+    color: #fff;
+    border: 1px solid #ff441b; 
+}
+.call-to-action .cta-btn a:hover{
+    background: transparent;
+    border: 1px solid #ff441b;
+    transition: 0.7s;
+}
+/* contact section start */
+
+.contact{
+    padding: 100px 0;
+    background: url(../img/contact-back.jpg) center center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.contact .contact-pic img{
+    width: 65%;
+}
+.contact .contact-inner h2{
+    color: #ff441b;
+} 
+.contact .contact-inner .form-control {
+    display: block;
+    width: 100%;
+ padding-top: 12px;
+ padding-bottom: 12px;
+    background-color: transparent;
+    color: #ff441b;
+    font-weight: 500;
+}
+.contact .contact-inner textarea {
+    height: 150px;
+    
+}
+.contact .contact-inner .contact-btn{
+    padding-top: 30px;
+    width: 100%;
+    display: block;
+}
+.contact .contact-inner .contact-btn a{
+    padding: 15px 30px;
+    background: #ff441b;
+    border: 1px solid #ff441b;
+    color: #fff;
+    display: block;
+    font-size: 18px;
+
+
+}
+.contact textarea::placeholder{
+    color: #000;
+}
+
+.contact .contact-inner .contact-btn a:hover{
+    transition: 0.7s;
+    color: #ff441b;
+    background: transparent;
+    border: 1px solid #ff441b;
+}
+/*Contact section ENd */
+
+/* footer section */
+
+
+
+.fotter {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    background-image: linear-gradient(
+      90deg,
+      rgba(115, 114, 141, 0.7) 0%,
+      rgba(0, 0, 106, 0.7) 35%,
+      rgba(41, 45, 45, 0.7) 100%
+    ),
+    url(../img/h-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    
+    color: #fff;
+    overflow: hidden !important;
+}
+.fotter .icon-details{
+    display: flex;
+    margin-top: 20px;
+}
+.fotter .icon-details i{
+    margin-right: 15px;
+   
+}
+.fotter .socail-icon i{
+    margin: 20px 25px 0 0;
+    padding: 12px 12px;
+    background: #ff441b;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 5px;
+    transition: 0.7s;
+    cursor: pointer;
+}
+.fotter .socail-icon i:hover{
+    background: #007aff;
+    color: #ff441b;
+    transition: 0.7s;
+}
+.menu-csst {
+    display: flex;
+    justify-content: space-around;
+}
+.fotter .menu ul li {
+    list-style: none;
+    margin-top: 15px;
+    margin-left: -30px;
+}
+.fotter .menu ul li a{
+    color: #fff;
+    font-size: 16px;
+    transition: 0.7s;
+}
+.fotter .menu ul li a:hover{
+    color: #ff441b;
+    transition: 0.7s;
+}
+.fotter .menu{
+    margin-left: 30px;
+}
+
+.fotter .use ul li {
+    list-style: none;
+    margin-top: 15px;
+    margin-left: -30px;
+}
+.fotter .use ul li a{
+    color: #fff;
+    font-size: 16px;
+    transition: 0.7s;
+}
+.fotter .use ul li a:hover{
+    color: #ff441b;
+    transition: 0.7s;
+}
+.fotter .use{
+    margin-left: 30px;
+}
+/* copyright */
+.copyright{
+    background: #24233a;
+    color: #fff;
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+/* responsive  Part */
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+ /* CSS */
+ button.navbar-toggler.ms-auto {
+    background: #ff441b;
+    box-shadow: none;
+}
+
+div#navbarSupportedContent {
+    position: absolute;
+    background: #ff441b;
+    width: 100%;
+    top: 70px;
+    z-index: 1;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 5px;
+    
+}
+.header .navbar-parrents .navbar .nav-item .nav-link {
+    color: #fff;
+}
+.navbar .navbar-collapse form{
+    justify-content: center;
+}
+li.nav-item {
+    margin-bottom: 20px;
+}
+ 
+p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+}
+h2 {
+    font-size: 28px;
+    line-height: 35px;
+}
+.container{
+    padding: 0 20px;
+}
+
+.header {
+    background: url(../img/mb-heder-back.jpg) center center no-repeat;
+    background-size: cover;
+}
+.header .topbar-parrents {
+    display: none;
+}
+.banner {
+    background: url(../img/mb-banner.png) center center no-repeat;
+    background-size: cover;
+    height: 92vh;
+}
+h4 {
+    font-size: 16px;
+    line-height: 25px;
+}
+.banner .banner-parrents h1 {
+    font-size: 45px;
+}
+.banner .align-items-center {
+    padding: 70px 0 0 0;
+}
+.banner .banner-parrents {
+    position: absolute;
+    top: 230px;
+    text-align: center;
+    padding: 0 80px;
+}
+.btns a {
+    padding: 10px 15px;
+    transition: 0.7s;
+}
+.banner .banner-parrents .btns {
+    padding-top: 20px;
+}
+.feature {
+    padding: 50px 0;
+}
+.feature .feature-title {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.feature .feature-parrents .feature-pic img {
+    width: 100%;
+}
+.feature-pic {
+    margin-bottom: 70px;
+}
+.feature  .feature-item .feature-box {
+    row-gap: 85px;
+    column-gap: 40px;
+}
+.about {
+    background: #000;
+    padding: 50px 0;
+}
+.about .about-content .about-btn {
+    margin: 30px  39% 0;
+}
+.about-content {
+   margin-top: 50px;
+}
+.services .services-title {
+    text-align: center;
+    padding: 0 70px;
+    margin-bottom: 50px;
+}
+.services .services-item .services-img img {
+    width: 80%;
+    border-radius: 15px;
+    transition: 0.7s;
+    cursor: pointer;
+    margin: 0 10% 0;
+}
+.services .services-content {
+    padding: 45px  46px;
+    left:82px;
+    bottom: 50px;
+}
+.services .services-content i {
+    padding: 10px 10px;
+   
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.services .services-content h4{
+    font-size: 18px;
+}
+.call-to-action .cta-title p {
+    padding: 0 90px;
+    color: #fff;
+}
+.call-to-action {
+    padding: 56px 0;
+    background: url(../img/cta-back-2.jpg) center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 30vh;
+}
+.contact {
+    padding: 50px 0;
+}
+.contact .contact-pic img {
+    width: 100%;
+    
+}
+.fotter {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.fotter p {
+    padding: 0 80px;
+}
+.fotter .icon-details {
+    display: inline-flex;
+    padding: 0 25px;
+}
+.socail-icon {
+    justify-content: center;
+    margin: 10px 0 30px;
+}
+.ft-contact {
+    text-align: center;
+}
+ 
+}
+
+/* Mobile */
+@media (min-width: 360px) and (max-width: 375px) {
+    
+  
+  
+        /* CSS */
+        button.navbar-toggler.ms-auto {
+            background: #ff441b;
+            box-shadow: none;
+        }
+    
+        div#navbarSupportedContent {
+            position: absolute;
+            background: #ff441b;
+            width: 100%;
+            top: 70px;
+            z-index: 1;
+            text-align: center;
+            padding: 10px 0;
+            border-radius: 5px;
+            
+        }
+        .navbar .navbar-collapse form{
+            justify-content: center;
+        }
+        li.nav-item {
+            margin-bottom: 10px;
+        }
+        
+        p {
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 25px;
+        }
+        h2 {
+            font-size: 22px;
+            line-height: 35px;
+        }
+       .container{
+            padding: 0 20px;
+        }
+        .header {
+            background: url(../img/mb-heder-back.jpg) center center no-repeat;
+            background-size: cover;
+        }
+        .header .topbar-parrents {
+            display: none;
+        }
+        .banner {
+            background: url(../img/mb-banner.png) center center no-repeat;
+            background-size: cover;
+            height: 92vh;
+        }
+        h4 {
+            font-size: 12px;
+            line-height: 25px;
+        }
+        .banner .banner-parrents h1 {
+            font-size: 31px;
+        }
+        .banner .align-items-center {
+            padding: 70px 0 0 0;
+        }
+        .banner .banner-parrents {
+            position: absolute;
+            top: 105px;
+            text-align: center;
+        }
+        .btns a {
+            padding: 8px 10px;
+            transition: 0.7s;
+        }
+        .banner .banner-parrents .btns {
+            padding-top: 20px;
+        }
+        .feature {
+            padding: 50px 0;
+        }
+        .feature .feature-title {
+            text-align: center;
+            padding-bottom: 30px;
+        }
+        .feature .feature-parrents .feature-pic img {
+            width: 100%;
+            margin-bottom: 60px;
+        }
+        .feature  .feature-item .feature-box {
+            text-align: center;
+            display: grid;
+            grid-template-columns: 1fr;
+           
+        }
+        .feature  .feature-item .feature-box  .card {
+            margin: 0 auto;
+        }
+        .about {
+            background: #000;
+            padding: 50px 0px;
+        }
+        .about .about-content h2 {
+            color: #fff;
+            padding: 0px 0;
+        }
+        .about .about-content {
+            padding-top: 50px !important;
+            padding: 0;
+        }
+        .about .about-content .about-btn {
+            margin: 30px 32% 0px;
+        }
+        .about .about-content .about-btn .btns a {
+            padding: 12px 20px;
+            transition: 0.7s;
+        }
+    
+        .services {
+            padding: 50px 0;
+        }
+        .services .services-title {
+           padding: 0 0 40px;
+           
+        }
+        .services-item {
+            margin: 0 0 0 60px;
+        }
+        .services .services-content {
+            padding: 5px 0px;
+            box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+            border-radius: 20px;
+            width: 70%;
+            margin-left: 15px;
+            background: #fff;
+            position: relative;
+            bottom: 35px;
+            text-align: center;
+        }
+        .logo-caresole {
+            padding: 50px 0;
+        }
+        .call-to-action {
+            padding: 26px 0;
+            height: 46vh;
+        }
+        .call-to-action .cta-title p {
+            padding: 0;
+        }
+        .contact {
+            padding: 50px 0;
+        }
+        .contact .contact-pic img {
+            width: 65%;
+            margin-bottom: 50px;
+        }
+        .ft-contact{
+           text-align: center;
+           margin-top: 20px;
+        }
+        .fotter {
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        .fotter .icon-details {
+            display: inline-flex;
+            padding: 0 15px;
+        }
+        .socail-icon {
+            justify-content: center;
+            margin: 10px 0 30px;
+        }
+        .fotter .menu{
+            text-align: center;
+        } 
+        .fotter .use{
+            text-align: start;
+        }
+        
+      }
+
+   
+
+@media (min-width: 376px) and (max-width: 480px) {
+  
+    /* CSS */
+    
+    button.navbar-toggler.ms-auto {
+        background: #ff441b;
+        box-shadow: none;
+    }
+
+    div#navbarSupportedContent {
+        position: absolute;
+        background: #ff441b;
+        width: 100%;
+        top: 70px;
+        z-index: 1;
+        text-align: center;
+        padding: 15px 0;
+        border-radius: 5px;
+        
+    }
+    .navbar .navbar-collapse form{
+        justify-content: center;
+    }
+    li.nav-item {
+        margin-bottom: 15px;
+    }
+    p {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+    }
+    h2 {
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 45px;
+        color: #37000a;
+        text-transform: capitalize;
+    }
+   .container{
+        padding: 0 20px;
+    }
+    .header {
+        background: url(../img/mb-heder-back.jpg) center center no-repeat;
+        background-size: cover;
+    }
+    .header .topbar-parrents {
+        display: none;
+    }
+    .banner {
+        background: url(../img/mb-banner.png) center center no-repeat;
+        background-size: cover;
+        height: 92vh;
+    }
+    h4 {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .banner .banner-parrents h1 {
+        font-size: 40px;
+    }
+    .banner .align-items-center {
+        padding: 70px 0 0 0;
+    }
+    .banner .banner-parrents {
+        position: absolute;
+        top: 150px;
+        text-align: center;
+    }
+    .btns a {
+        padding: 12px 18px;
+        transition: 0.7s;
+    }
+    .banner .banner-parrents .btns {
+        padding-top: 20px;
+    }
+    .feature {
+        padding: 50px 0;
+    }
+    .feature .feature-title {
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .feature .feature-parrents .feature-pic img {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .feature  .feature-item .feature-box {
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr;
+       
+    }
+    .feature  .feature-item .feature-box  .card {
+        margin: 0 auto;
+    }
+    .about {
+        background: #000;
+        padding: 50px 0px;
+    }
+    .about .about-content h2 {
+        color: #fff;
+        padding: 0px 0;
+    }
+    .about .about-content {
+        padding-top: 50px !important;
+        padding: 0;
+    }
+    .about .about-content .about-btn {
+        margin: 30px 32% 0px;
+    }
+    .about .about-content .about-btn .btns a {
+        padding: 12px 20px;
+        transition: 0.7s;
+    }
+
+    .services {
+        padding: 50px 0;
+    }
+    .services .services-title {
+       padding: 0 0 40px;
+       
+    }
+    .services-item {
+        margin: 0 0 0 60px;
+    }
+    .services .services-content {
+        padding: 8px 8px;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        border-radius: 20px;
+        width: 70%;
+        margin-left: 15px;
+        background: #fff;
+        position: relative;
+        bottom: 35px;
+        text-align: center;
+    }
+    .logo-caresole {
+        padding: 50px 0;
+    }
+    .call-to-action {
+        padding: 50px 0;
+        height: 42vh;
+    }
+    .call-to-action .cta-title p {
+        padding: 0;
+    }
+    .contact {
+        padding: 100px 0;
+    }
+    .ft-contact{
+       text-align: center;
+       margin-top: 20px;
+    }
+    .fotter .icon-details {
+        display: inline-flex;
+        padding: 0 15px;
+    }
+    .socail-icon {
+        justify-content: center;
+        margin: 10px 0 30px;
+    }
+    .fotter .menu{
+        text-align: center;
+    } 
+    .fotter .use{
+        text-align: start;
+    }
+  }
