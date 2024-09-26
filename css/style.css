@@ -631,9 +631,7 @@ h4 {
     background: #000;
     padding: 50px 0;
 }
-.about .about-content .about-btn {
-    margin: 30px  39% 0;
-}
+
 .about-content {
    margin-top: 50px;
 }
@@ -672,7 +670,7 @@ h4 {
     background: url(../img/cta-back-2.jpg) center center no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 30vh;
+    height: 42vh;
 }
 .contact {
     padding: 50px 0;
@@ -809,9 +807,7 @@ h4 {
             padding-top: 50px !important;
             padding: 0;
         }
-        .about .about-content .about-btn {
-            margin: 30px 32% 0px;
-        }
+      
         .about .about-content .about-btn .btns a {
             padding: 12px 20px;
             transition: 0.7s;
@@ -989,9 +985,7 @@ h4 {
         padding-top: 50px !important;
         padding: 0;
     }
-    .about .about-content .about-btn {
-        margin: 30px 32% 0px;
-    }
+    
     .about .about-content .about-btn .btns a {
         padding: 12px 20px;
         transition: 0.7s;
@@ -1023,7 +1017,7 @@ h4 {
     }
     .call-to-action {
         padding: 50px 0;
-        height: 42vh;
+        height: 45vh;
     }
     .call-to-action .cta-title p {
         padding: 0;
